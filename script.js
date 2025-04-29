@@ -23,7 +23,7 @@ const positions = {
 
 function updateObjectImages() {
   for (let z = 0; z < 4; z++) {
-    const filename = `${megami}${z}${convoluted}.jpg`;
+    const filename = `${megami}${z+1}${convoluted}.jpg`;
     objects[z].src = `images/${filename}`;
   }
 }

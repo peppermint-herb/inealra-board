@@ -1,9 +1,9 @@
 let megami = 1;
 let convoluted = 0;
-let past = 3;
-let present = 2;
-let future = 1;
-let unseen = 0;
+let past = 0;
+let present = 1;
+let future = 2;
+let unseen = 3;
 
 const objects = [
   document.getElementById("object1"),
@@ -15,10 +15,10 @@ const objects = [
 const history = [];
 
 const positions = {
-  btn5: { left: 150, top: 0 },
-  btn6: { left: 150, top: 535 },
-  btn7: { left: 150, top: 1070 },
-  btn8: { left: 150, top: 1605 },
+  btn5: { left: 160, top: 50 },
+  btn6: { left: 310, top: 590 },
+  btn7: { left: 160, top: 1130 },
+  btn8: { left: 310, top: 1671 },
 };
 
 function updateObjectImages() {

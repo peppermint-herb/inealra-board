@@ -20,7 +20,7 @@ body, html {
   }
   
   .object {
-    width: 767px;
+    width: 775px;
     height: 535px;
     position: absolute;
     z-index: 2;
@@ -32,10 +32,11 @@ body, html {
   .button-grid {
     position: absolute;
     display: grid;
-    grid-template-columns: 150px 767px;
-    grid-template-rows: repeat(4, 535px);
+    grid-template-columns: 150px 930px;
+    grid-template-rows: repeat(4, 545px);
     left: 0;
     top: 0;
+    transform: translateY(40px);
     z-index: 3;
   }
   

@@ -44,6 +44,13 @@ body, html {
     width: 100%;
     height: 100%;
     cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  .btn:focus {
+    outline: none;
   }
   
   .no-img {

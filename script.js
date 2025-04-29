@@ -1,9 +1,9 @@
 let megami = 1;
 let convoluted = 0;
-let past = 1;
+let past = 3;
 let present = 2;
-let future = 3;
-let unseen = 4;
+let future = 1;
+let unseen = 0;
 
 const objects = [
   document.getElementById("object1"),
@@ -36,10 +36,10 @@ function setObjectPosition(index, buttonId) {
 }
 
 function initializeObjects() {
-  setObjectPosition(0, "btn5");
-  setObjectPosition(1, "btn6");
-  setObjectPosition(2, "btn7");
-  setObjectPosition(3, "btn8");
+  setObjectPosition(unseen, "btn5");
+  setObjectPosition(future, "btn6");
+  setObjectPosition(present, "btn7");
+  setObjectPosition(past, "btn8");
 }
 
 function pushState() {
